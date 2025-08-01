@@ -1,20 +1,21 @@
 {
-  "pedido": {
-    "id": "PED123456",
-    "descricao": "Pedido de 500 unidades de canecas personalizadas",
-    "clienteId": "CLI789",
-    "fabricaId": "FAB456",
-    "data": "2025-07-31T14:00:00Z",
-    "status": "Em produção"
-  },
-  "cliente": {
-    "id": "CLI789",
-    "nome": "Joana Martins",
-    "descricao": "Cliente recorrente do setor de brindes corporativos"
-  },
-  "fabrica": {
-    "id": "FAB456",
-    "nome": "Fábrica de Ideias LTDA",
-    "descricao": "Especializada em produção de brindes personalizados e embalagens"
+  "order": [
+    {
+      "id": "asdasd-45d-dfg",
+      "name": "Order teste",
+      "description": "order funcionando"
+    }
+  ],
+  "customer": [
+    {
+      "id": "159d-asdf-qwe2e",
+      "name": "Customer teste",
+      "ch6ave": "customer funcionando"
+    }
+  ],
+  "factory": {
+    "id": "123sd-asd45-faf",
+    "name": "Factory teste",
+    "description": "factory funcionando"
   }
 }

@@ -1,7 +1,10 @@
-class CustomerRepository{
+import db from '../../db.json' with { type: 'json' };
 
-       static async findAll(){
+class CustomerRepository {
 
+    static  findAll() {
+        const customers = db.customer
+        return customers
     }
 
 }
